@@ -1,4 +1,4 @@
-'use strice'
+'use strict'
 
 // 콜백(Callback)
 // 함수의 인수로 사용되는 함수
