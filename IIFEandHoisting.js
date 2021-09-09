@@ -24,8 +24,11 @@ double();
 
 console.clear();
 
+const b = 7;
+1
 double1();
 
 function double1() {
-  console.log(a * 2);
+  console.log(b * 2);
 }
+
