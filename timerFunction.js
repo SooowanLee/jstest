@@ -6,6 +6,7 @@
 // clearTimeout(): 설정된 Timeout 함수를 종료
 // clearInterval(): 설정된 Interval 함수를 종료
 
+
 // 3초 후 Soowan! 출력
 const timer = setTimeout(() => {
   console.log('Soowan!');
@@ -19,10 +20,10 @@ h1El.addEventListener('click', () => {
 
 // 3초마다 Hyebin 출력
 const interval = setInterval(() => {
-    console.log('Hyebin');
-}, 3000);
+  console.log('Hyebin');
+}, 500);
 // Interval 정지
 const h2El = document.querySelector('h2');
 h2El.addEventListener('click', () => {
-  clearInterval(interval);
+clearInterval(interval);
 })
