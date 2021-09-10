@@ -13,12 +13,23 @@
 // soowan.normal();
 // soowan.arrow();
 
-function User(first, last) {
-  this.first = first;
-  this.last = last;
-}
-User.prototype.getFullName = function () {
-  return `${this.first} ${this.last}`;
+// function User(first, last) {
+//   this.first = first;
+//   this.last = last;
+// }
+// User.prototype.getFullName = function () {
+//   return `${this.first} ${this.last}`;
+// }
+
+
+class User {
+  constructor(first, last) {
+    this.first = first;
+    this.last = last;
+  }
+  getFullName() {
+    return `${this.first} ${this.last}`
+  }
 }
 
 const soowan = new User('Soowan', 'Lee');
